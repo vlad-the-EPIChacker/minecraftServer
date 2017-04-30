@@ -13,4 +13,3 @@ RUN apt-get -y install openjdk-8-jre
 RUN wget https://s3.amazonaws.com/Minecraft.Download/versions/1.10.2/minecraft_server.1.10.2.jar
 RUN mv /minecraft_server.1.10.2.jar /minecraftServer/minecraft_server.jar
 EXPOSE 25565
-
